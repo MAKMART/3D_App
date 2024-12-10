@@ -2,7 +2,7 @@
 
 int main() {
     try {
-        Application app("3D Model Viewer", 1920, 1080);
+        Application app("Window", 1920, 1080);
         app.Run();
     }
     catch (const std::exception& e) {

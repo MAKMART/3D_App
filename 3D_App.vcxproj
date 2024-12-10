@@ -24,6 +24,7 @@
     <ProjectGuid>{ce696c28-0c32-47e7-ab9c-600584539352}</ProjectGuid>
     <RootNamespace>MinecraftClone</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>3D App</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -518,6 +519,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="assets\models\SP60\SM_LPAMG_SP60_Preview.FBX" />
+    <None Include="assimp-vc143-mt.dll" />
     <None Include="Dependencies\include\assimp\color4.inl" />
     <None Include="Dependencies\include\assimp\material.inl" />
     <None Include="Dependencies\include\assimp\matrix3x3.inl" />
